@@ -1,0 +1,94 @@
+/* General styling for SIP Calculator */
+.sip-calculator {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sip-calculator .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .sip-calculator .header h1 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .sip-calculator .input-section, .sip-calculator .slider-section {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sip-calculator .input-section label,
+  .sip-calculator .slider-group label {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .sip-calculator .input-section input,
+  .sip-calculator .slider-group input[type="range"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .sip-calculator .slider-group input[type="range"] {
+    padding: 0;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .sip-calculator .slider-group p {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 5px;
+    color: #333;
+  }
+  
+  .sip-calculator .input-section button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sip-calculator .input-section button:hover {
+    background-color: #45a049;
+  }
+  
+  .sip-calculator .result-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .sip-calculator .result-section h2 {
+    font-size: 1.2rem;
+    color: #4caf50;
+  }
+  
+  .sip-calculator .slider-section h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .sip-calculator .info-section img {
+    width: 55vw;
+
+    min-width: 200px;
+    margin: 2vw;
+  }

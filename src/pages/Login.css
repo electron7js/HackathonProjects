@@ -1,0 +1,140 @@
+.login {
+  margin: 0 5%;
+  background-color: #f5f5f5;
+}
+.login .logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.login logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.login logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.login .card {
+  padding: 2em;
+}
+
+.login .read-the-docs {
+  color: #888;
+}
+
+.login .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  background-color: white;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin: none;
+  padding: 2 rem;
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+  border-radius: 1rem;
+  font-size: large;
+  box-shadow: 0rem 0rem 2rem 0.2rem;
+}
+
+.login .main-content span {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+}
+
+.login .main-form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.login .input-label {
+  max-width: 3rem;
+}
+
+.login .input-box {
+  border: 0.2em solid #e91e63;
+  padding: 0.8em 0.9em;
+  border-radius: 2em;
+  color: #e91e63;
+  width: 50%;
+  color: black;
+}
+
+.login .submit-btn {
+  align-self: center;
+  font-weight: bolder;
+  color: black;
+  border-radius: 1em;
+  font-size: large;
+  padding: 1rem 4rem 1rem 4rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  border: 0.2em solid #e91e63;
+  transition: 1s;
+  &:hover,
+  &:focus,
+  &:active {
+    background: #e91e63;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login {
+    margin: none;
+  }
+  .login .main-content span {
+    width: 100%;
+    justify-content: left;
+    gap: 5rem;
+  }
+  .login .submit-btn {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .login .input-box {
+    overflow: hidden;
+    width: 60%;
+  }
+  .login {
+    overflow: hidden;
+  }
+}
+
+.login .date {
+  text-align: center;
+  color: grey;
+}
+
+.login .button_div{
+  display: flex;
+  justify-content: center;
+}

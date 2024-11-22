@@ -1,0 +1,53 @@
+/* General styling */
+.course-board {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+
+.course-board .header {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.course-board .list-section {
+  margin-top: 20px;
+}
+
+.course-board .list-section h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  
+}
+
+.course-board .course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.course-board .course-item {
+  background: linear-gradient(to right, #a8e5ff, #e0f7ff);
+  padding: 35px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  color: #000;
+}
+
+.course-board .course-item h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align:left;
+}
+
+.course-board .course-item p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+  text-align:left;
+}
